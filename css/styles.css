@@ -896,8 +896,8 @@ ul {
 
 .standings-brackets-eightteam {
   width: 940px;
-  height: 1185px;
-  padding: 20px 0 20px;
+  height: 1200px;
+  margin: 20px 0 20px;
 }
 
 .standings-brackets-eightteam h4 {
@@ -1308,6 +1308,10 @@ ul {
 
 .standings-second-round, .standings-classification-round{
   height: 250px;
+}
+
+.leaders {
+  clear: both;
 }
 
 .player-stats-list {
