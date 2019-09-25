@@ -324,7 +324,7 @@ ul {
 
 #main_slide img {
   width: 100%;
-  height: auto;
+  height: 532px;
   line-height: 30px;
   text-indent: 10px;
   color: #989898;
@@ -332,7 +332,7 @@ ul {
 }
 
 .big-img {
-  height: auto;
+  height: 387.578px;
   width: 100%;
   border-bottom: 4px solid white;
 }
@@ -383,8 +383,8 @@ ul {
 
 .small-img {
   opacity: 1;
-  width: 100%;
-  height: auto;
+  width: 248px;
+  height: 131px;
   border-bottom: 2px solid white;
 }
 
@@ -432,11 +432,16 @@ ul {
   background-color: rgba(16, 16, 16, 0.6);
   padding-top: 80px;
   margin-top: 72.5px;
-  
+  height: 238px;
 }
+
 .latest-videos img {
   clear: both;
   left: 0;
+}
+
+.show {
+  height: 532px;
 }
 
 #events-home {

@@ -1,6 +1,7 @@
 /* Slider */
 .slick-slider
 {
+    
     position: relative;
 
     display: block;
@@ -16,6 +17,10 @@
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+}
+
+.loaded .slick-slider {
+    height: 100px;
 }
 
 .slick-list
@@ -81,7 +86,7 @@
     display: none;
     float: left;
 
-    height: 100%;
+    height: 236px;
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide
