@@ -1314,6 +1314,10 @@ ul {
   clear: both;
 }
 
+.leaders-img img {
+  margin-top: 16px;
+}
+
 .player-stats-list {
   height: 350px;
   width: 960px;
