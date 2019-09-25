@@ -44,7 +44,7 @@ ul {
 }
 
 #index {
-  background-color: rgba(150, 4, 4, 0.9);
+  
 }
 
 .header-bar {
@@ -430,7 +430,6 @@ ul {
 
 .latest-videos {
   background-color: rgba(16, 16, 16, 0.6);
-  height: 351.5px; 
   padding-top: 80px;
   margin-top: 72.5px;
   
@@ -442,7 +441,7 @@ ul {
 
 #events-home {
   background-color: #fff;
-  height: 3486.06px;
+  padding-bottom: 60px;
 }
 
 .section-header-page {
@@ -1304,4 +1303,411 @@ ul {
 
 .standings-second-round, .standings-classification-round{
   height: 250px;
+}
+
+.player-stats-list {
+  height: 350px;
+  width: 960px;
+  padding: 0 10px;
+  clear: both;
+  margin: 0 24px;
+  font-family: "Open Sans-R";
+  display: flex;
+  flex-direction: row;
+}
+
+.player-stats {
+  height: 350px;
+  width: 220px;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.player-stats h4 {
+  font-size: 18px;
+  height: 21px;
+  margin: 0 0 5px;
+}
+
+.player-stats .sub-text {
+  font-size: 12px;
+  width: 220px;
+  height: 12px;
+  margin: 0;
+}
+
+.top-three-player {
+  height: 300px;
+  width: 220px;
+}
+
+.top-three-player ul {
+  height: 300px;
+  width: 220px;
+  margin: 0;
+}
+
+.top-three-player ul .player-infor {
+  height: 78px;
+  width: 220px;
+  margin-bottom: 32px;
+  background-color: #fff;
+  border-bottom-left-radius: 50% 100% ;
+  position:relative;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top-three-player ul .left-bottom-color {
+  position: absolute;
+  height: 80px;
+  width: 110px;
+  background-color: #2959e2;
+  z-index: 2;
+}
+
+.top-three-player ul .border-bottom {
+  position: absolute;
+  height: 78px;
+  width: 220px;
+  border-bottom: 2px solid #a3a3a3;
+  z-index: 1;
+}
+
+.top-three-player ul .player-img {
+  height: 80px;
+  width: 59.078px;
+}
+
+.top-three-player ul .name-and-country {
+  width: 40px;
+  height: 80px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.top-three-player ul .name-and-country .player-from {
+  margin-top: 5px;
+  width: 40px;
+  
+}
+
+.top-three-player ul .name-and-country .player-name {
+  height: 35px;
+  margin-bottom: 5px;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.top-three-player ul .name-and-country .player-name .first-name {
+  font-size: 12px;
+  font-family: "Open Sans-R";
+  height: 12px;
+  line-height: 1px;
+}
+
+.top-three-player ul .name-and-country .player-name .second-name {
+  font-size: 14px;
+  font-family: "Open Sans";
+  height: 14px;
+  line-height: 1px;
+}
+
+.top-three-player ul .player-infor .player-point {
+  height: 20px;
+  width: 27.484px;
+  padding: 4px 6px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Bebas";
+  color: #fff;
+  background-color: #101010;
+  line-height: 1;
+}
+
+.follow-us h2 {
+  width: 139px;
+}
+
+.follow-us-img img {
+  margin: 0 0 0 0.9px;
+  
+}
+
+.red-background {
+  height: 1446px;
+  background-image: url(../img/wc_2019_topgradient.png);
+  background-color: rgba(150, 4, 4, 0.9);
+}
+
+.follow-us-page {
+  height: 227px;
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 24px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  zoom: 1;
+  box-sizing: border-box;
+}
+
+.place {
+  height: 77px;
+  width: 78px;
+  margin: 50px 40px 15px;
+  padding: 0 15px;
+  position: absolute;
+}
+
+.follow-us-icon{
+  height: 32px;
+  width: 78px;
+  padding: 15px 0;
+  color: #fff;
+  position: absolute;
+}
+
+.before-icon {
+  background-size: contain;
+  transform: scale(-1,1);
+  height: 64px;
+  width: 43px;
+  position: absolute;
+  left: -27px;
+  top: -1px;
+}
+
+.follow-us-icon i {
+  font-size: 32px;
+  content: " ";
+}
+
+.after-icon {
+  background-size: contain;
+  height: 64px;
+  width: 43px;
+  position: absolute;
+  top: -1px;
+  right: -27px;
+}
+
+.icon-text {
+  font-family: "Open Sans-R";
+  font-size: 18px;
+  line-height: 24px;
+  position: absolute;
+  width: 200px;
+  top: 90px;
+  left: -45px;
+}
+
+.icon-mail {
+  background-image: url(../img/pike_black.svg);
+}
+
+.mail {
+  background-color: #101010;
+}
+
+.subscribe {
+  left: 10;
+}
+
+.icon-twitter {
+  background-image: url(../img/pike_twitter.svg);
+}
+
+.twitter{
+  background-color: #1ab2e8;
+}
+
+.follow-us-twitter {
+  position: absolute;
+  left: 200px;
+}
+
+.icon-facebook {
+  background-image: url(../img/pike_facebook.svg);
+}
+
+.facebook{
+  background-color: #3b5998;
+}
+
+.follow-us-facebook {
+  position: absolute;
+  left: 390px;
+}
+
+.icon-youtube {
+  background-image: url(../img/pike_youtube.svg);
+}
+
+.youtube{
+  background-color: #E52E27;
+}
+
+.follow-us-youtube {
+  position: absolute;
+  left: 580px;
+}
+
+.icon-instagram {
+  background-image: url(../img/pike_instagram.svg);
+}
+
+.instagram{
+  background-color: #E4405F;
+}
+
+.follow-us-instagram {
+  position: absolute;
+  left: 770px;
+}
+
+.destination-china h2 {
+  width: 320px;
+}
+
+.destination-china-img img {
+  margin: 0 0 0 151.9px;
+}
+
+.infor-container {
+  clear: both;
+  height: 280px;
+  width: 940px;
+  padding: 60px 0 10px;
+  margin: 0 24px;
+  position: relative;
+  display: flex;
+}
+
+.infor-container img {
+  padding-right: 10px;
+}
+
+.infor-container .content {
+  height: 280px;
+  width: 403px;
+  padding: 0 10px;
+  font-family: "Open Sans-R";
+  color: #101010;
+}
+
+.infor-container .content .text {
+  margin-bottom: 10px;
+}
+
+.infor-container .content a {
+  font-size: 16px;
+}
+
+.infor-container .content ul {
+  margin: 0;
+  margin-left: 15px;
+  height: 96px;
+  
+}
+
+.infor-container .content ul li {
+  height: 24px;
+  list-style-type: disc;
+}
+
+.footer-page {
+  height: 907.750px;
+  background-color: #222222;
+  color: #fff;
+  clear: both;
+}
+
+.footer-paging {
+  display: flex;
+  flex-direction: row;
+  height: 519.594px;
+  margin: 20px 24px;
+}
+
+.footer-paging .group-up {
+  padding: 15px 15px 15px 0;
+  width: 225px;
+  
+}
+
+.footer-paging .group-up ul h2{
+  margin: 0;
+  font-size: 16px;
+  height: 31px;
+  font-family: "Lato-Bold";
+}
+
+.footer-paging .group-up ul li {
+  height: 16px;
+  padding: 2px 0;
+}
+
+.footer-paging .group-up ul li a {
+  font-size: 12px;
+  font-family: "Lato";
+}
+
+.footer-paging .group-up ul li i {
+  margin-right: 5px;
+  font-size: 4px;
+}
+
+.footer-paging .group-up .follow-us i {
+  height: 36px;
+  width: 36px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: #101010;
+  background-color: #fff;
+  text-align: center;
+  line-height: 36px;
+  margin: 5px;
+}
+
+.footer-logos {
+  
+  height: 218.156px;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+
+.footer-logos h2 {
+  text-align: center;
+  height: 16px;
+  margin: 18px 0 4px 0;
+  font-size: 16px;
+  font-family: "Lato-Bold";
+}
+
+.footer-logos .logos {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logos .logos img {
+  height: 43px;
+  width: 115px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.footer-logos .logos-small {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logos .logos-small img {
+  height: 32.156px;
+  width: 86px;
+  padding: 5px;
+  border-radius: 10px;
 }
