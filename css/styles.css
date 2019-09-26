@@ -1311,11 +1311,20 @@ ul {
 }
 
 .leaders {
-  clear: both;
+  margin-top: 2.49px;
+}
+
+.leaders h2 {
+  width: 139px;
 }
 
 .leaders-img img {
-  margin-top: 16px;
+  margin: 0;
+  height: 76px;
+}
+
+.area .show {
+  height: auto;
 }
 
 .player-stats-list {
