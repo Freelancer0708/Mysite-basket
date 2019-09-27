@@ -1960,11 +1960,11 @@ ul {
   }
 
   .section-header h2 {
-    font-weight: 700;
+    font-weight: lighter;
   }
 
   .section-header-page h2 {
-    font-weight: 400;
+    font-weight: lighter;
   }
 
 }
