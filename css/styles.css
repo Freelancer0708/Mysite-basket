@@ -1959,5 +1959,12 @@ ul {
     overflow:hidden;
   }
 
+  .section-header h2 {
+    font-weight: 700;
+  }
+
+  .section-header-page h2 {
+    font-weight: 700;
+  }
 
 }
