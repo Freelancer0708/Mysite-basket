@@ -1756,3 +1756,203 @@ ul {
   padding: 5px;
   border-radius: 10px;
 }
+
+@media (max-width: 980px) {
+
+  .site-header .header-bar {
+    zoom: 3;
+    width: 100%;
+  }
+  
+  .site-header .header-name{
+    line-height: 1.5;
+  }
+
+  .red-background {
+    height: 2782px;
+  }
+
+  .red-background .logo-outer {
+    zoom: 2;
+  }
+
+  .red-background .logo img{
+    zoom: 1.5;
+  }
+
+  .red-background .date {
+    zoom: 1.2;
+  }
+
+  .red-background .list {
+    zoom: 2.5;
+  }
+
+  .red-background .center {
+    zoom: 2.5;
+    
+  }
+
+  .red-background .show .big-show {
+    zoom: 0.977;
+  }
+
+  .red-background .show .big-show .big-infor {
+    zoom: 2;
+  }
+
+  .red-background .show .big-show img {
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .red-background .show .small-show {
+    zoom: 0.977;
+    
+  }
+
+  .red-background .show .small-show .small-show-1 img {
+    object-fit: cover;
+  }
+
+  .red-background .loader {
+    zoom: 1.5;
+    margin-top: 80px; 
+  }
+
+  .red-background .section-header {
+    margin-top:220px; 
+    zoom: 2;
+  }
+
+  .red-background .section-header-img {
+    margin-top:220px; 
+    padding-left: 20px;
+    zoom: 2;
+  }
+
+  .red-background .section-header-img img {
+    padding-left: 19.164px;
+  }
+
+  .red-background .loaded {
+    height: 500px;
+    
+  }
+
+  .photos {
+    zoom: 2.5;
+  }
+
+  .photos-img {
+    zoom: 2.5;
+  }
+
+  .imgset-opener {
+    zoom: 2.5;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+
+  .imgset-opener h6 {
+    text-align: center;
+  }
+
+  .molten {
+    zoom: 2.5;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+
+  .about {
+    zoom: 2.5;
+  }
+
+  .about-img {
+    zoom: 2.5;
+  }
+
+  .about-event {
+    zoom: 2.5;
+  }
+
+  .about-event .inner-background {
+    width: 380px;
+  }
+
+  .about-event .inner-background .inner {
+    width: 380px;
+  }
+
+  .about-event .timeline {
+    width: 380px;
+    margin-top: 20px;
+  }
+
+  .standings {
+    zoom: 2.5;
+  }
+
+  .standings-img {
+    zoom: 2.5;
+  }
+
+  .event-standings {
+    zoom: 2.5;
+  }
+
+  .event-standings .table-container {
+    margin-left: 8.5px;
+  }
+
+  .event-standings .standings-first-round {
+    height: 2020px;
+  }
+
+  .event-standings .standings-second-round {
+    height: 1020px;
+  }
+
+  .event-standings .standings-classification-round {
+    height: 1020px;
+  }
+
+  .event-standings .standings-brackets-eightteam .match-line {
+    margin-left: 10px;
+  }
+
+  .event-standings .standings-brackets-eightteam .match-line-right {
+    width: 0px;
+  }
+
+  .event-standings .next-group .brackets-group .group-match {
+    margin-left: 10px;
+  }
+
+  .event-standings .next-group .brackets-group .infor {
+    margin-left: 10px;
+  }
+
+  .event-standings .standings-brackets-eightteam .match-line-second {
+    margin-left: 250px;
+  }
+
+  .event-standings .standings-brackets-eightteam .match-line-second .match-line-right-second {
+    width: 0px;
+  }
+
+  .event-standings .standings-brackets-eightteam .match-line-second .second-next-group {
+    margin-left: 10px;
+  }
+
+  .event-standings .group-match {
+    width: 180px;
+  }
+
+  .event-standings .infor {
+    width: 182px
+  }
+
+
+}
