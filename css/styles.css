@@ -2203,6 +2203,10 @@ ul {
     font-weight: lighter;
   }
 
+  .standings-brackets h4 {
+    font-weight: lighter;
+  }
+
 }
 
 #wrapper {
