@@ -2199,6 +2199,10 @@ ul {
     align-items: center;
   }
 
+  h2 {
+    font-weight: lighter;
+  }
+
 }
 
 #wrapper {
