@@ -44,7 +44,6 @@ ul {
 }
 
 #index {
-  
 }
 
 .header-bar {
@@ -343,7 +342,6 @@ ul {
   height: 387.578px;
   width: 1002px;
   border-bottom: 4px solid white;
-  
 }
 
 .big-show {
@@ -611,21 +609,19 @@ ul {
   margin-left: 20px;
 }
 
-@media screen and (max-width:976px){
-
+@media screen and (max-width: 976px) {
   #gallery-preview {
     height: 612px;
   }
 }
 
-@media screen and (max-width:656px){
-
+@media screen and (max-width: 656px) {
   #gallery-preview {
     height: 862px;
   }
-} 
+}
 
-.about h2{
+.about h2 {
   width: 230px;
 }
 
@@ -644,7 +640,7 @@ ul {
 .inner {
   height: 280px;
   width: 100%;
-  background-color: rgba(156,16,6,.82);
+  background-color: rgba(156, 16, 6, 0.82);
   float: left;
 }
 
@@ -669,7 +665,6 @@ ul {
   height: 280px;
   width: 40%;
   padding: 0 10px 0;
-
 }
 
 .checked {
@@ -734,11 +729,10 @@ ul {
   margin: 0 24px 0;
 }
 
-
 .tab {
   height: 29px;
   margin: 0;
-  border-bottom: 1px solid rgba(10,10,10,.1);
+  border-bottom: 1px solid rgba(10, 10, 10, 0.1);
 }
 
 .tab li {
@@ -747,7 +741,7 @@ ul {
   padding: 0 15px 0;
   cursor: pointer;
   list-style: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .tab li a {
@@ -756,7 +750,7 @@ ul {
 }
 
 .tab li:hover {
-  border-bottom: 4px solid rgba(10,10,10,.6);
+  border-bottom: 4px solid rgba(10, 10, 10, 0.6);
 }
 
 .tab li.active {
@@ -776,7 +770,7 @@ ul {
 .table-container {
   height: 197px;
   width: 220px;
-  border: 1px solid rgba(10,10,10,.4);
+  border: 1px solid rgba(10, 10, 10, 0.4);
   margin: 0 8.5px 51px 8.5px;
   float: left;
 }
@@ -840,7 +834,7 @@ ul {
   width: 118px;
   float: left;
   display: flex;
-  border-right: 1px solid rgba(10,10,10,.2);
+  border-right: 1px solid rgba(10, 10, 10, 0.2);
 }
 
 .number {
@@ -854,7 +848,7 @@ ul {
   width: 20px;
 }
 
-.country-img{
+.country-img {
   float: left;
   width: 30px;
   height: 22.5px;
@@ -867,7 +861,7 @@ ul {
   margin: -4px 4 0 0;
 }
 
-.country-name a{
+.country-name a {
   font-family: "Open Sans";
   font-size: 14px;
 }
@@ -877,7 +871,7 @@ ul {
   height: 21px;
   width: 25px;
   padding: 9px;
-  border-right: 1px solid rgba(10,10,10,.2);
+  border-right: 1px solid rgba(10, 10, 10, 0.2);
 }
 
 .wl-team a {
@@ -904,7 +898,7 @@ ul {
 }
 
 .second-team {
-  border-bottom: 1px solid rgba(10,10,10,.2);
+  border-bottom: 1px solid rgba(10, 10, 10, 0.2);
 }
 
 .table-container-top {
@@ -933,7 +927,7 @@ ul {
   height: 74px;
   width: 233px;
   padding: 7px 0;
-  border: 1px solid rgba(10,10,10,.2);
+  border: 1px solid rgba(10, 10, 10, 0.2);
   border-radius: 6px 6px 0 0;
 }
 
@@ -968,7 +962,7 @@ ul {
   font-size: 11.25px;
   font-family: "Open Sans";
   padding: 7.75px 0;
-  border-left: 1px solid rgba(10,10,10,.2);
+  border-left: 1px solid rgba(10, 10, 10, 0.2);
   display: flex;
   justify-content: center;
 }
@@ -987,159 +981,6 @@ ul {
   padding: 11px 0 11px 8px;
 }
 
-.standings-brackets-fourteam {
-  width: 235px;
-  height: 502px;
-}
-
-.match-line {
-  height: 250px;
-  border-left: 2px solid rgba(10,10,10,.1);
-  margin-left: 117px;
-  
-}
-
-.match-line .match-half-finals {
-  margin: 0; 
-  padding: 25px 0 5px 80px;
-  width: 235px;
-  height: 26px;
-}
-
-.match-line-right {
-  width: 80px;
-  border-bottom: 2px solid rgba(10,10,10,.1);
-  padding-top: 67px;
-  float: left;
-
-}
-
-.match-line .next-group .group-match{
-  float: left;
-  margin-left: 80px;
-  margin-top: -55px;
-}
-
-.match-line .next-group .infor {
-  float: left;
-  margin-left: 80px;
-}
-
-.brackets-group-second {
-  margin-top: 135px;
-}
-
-.match-line-second {
-  height: 512px;
-  border-left: 2px solid rgba(10,10,10,.1);
-  margin-top: -180px;
-  margin-left: 335px;
-}
-
-.match-line-right-second {
-  width: 80px;
-  border-bottom: 2px solid rgba(10,10,10,.1);
-  padding-top: 120px;
-}
-
-.match-line-second .second-next-group{
-  margin-left: 80px;
-  margin-top: -70px;
-}
-
-.match-line-second img {
-  clear: both;
-  margin-top: -650px;
-}
-
-.match-line-second .name {
-  clear: both;
-  margin-top: -650px;
-  margin-left: 30px;
-}
-
-.match-line-second .point {
-  border: none;
-}
-
-.match-line-second .point a {
-  clear: both;
-  margin-top: -661px;
-  width: 26px;
-  height: 22.5px;
-  padding: 7.75px 0;
-  display: flex;
-  justify-content: center;
-  border-left: 1px solid rgba(10,10,10,.2);
-}
-
-.match-line-second .match-finals {
-  margin: 0; 
-  padding: 36px 0 0 80px;
-  width: 235px;
-  height: 26px;
-}
-
-.match-line-second .second-next-group-third {
-  margin-left: 80px;
-  margin-top: 100px;
-}
-
-.second-next-group-third .brackets-group {
-  margin-top:  -62px;
-}
-
-.second-next-group-third img {
-  clear: both;
-  margin-top: -503px;
-}
-
-.second-next-group-third .name {
-  clear: both;
-  margin-top: -503px;
-  margin-left: 30px;
-}
-
-.second-next-group-third .point {
-  border: none;
-}
-
-.second-next-group-third .point a {
-  clear: both;
-  margin-top: -511px;
-  width: 26px;
-  height: 22.5px;
-  padding: 7.75px 0;
-  display: flex;
-  justify-content: center;
-  border-left: 1px solid rgba(10,10,10,.2);
-}
-
-.match-line-second-brackets .match-half-finals {
-  margin: 0; 
-  padding: 3px 0 15px;
-  width: 235px;
-  height: 26px;
-}
-
-.match-line-right {
-  width: 80px;
-  border-bottom: 2px solid rgba(10,10,10,.1);
-  padding-top: 67px;
-  float: left;
-
-}
-
-.match-line-second-brackets .next-group .group-match{
-  margin-left: 80px;
-  margin-top: -55px;
-  float: left;
-}
-
-.match-line-second-brackets .brackets-group {
-  float: left;
-}
-
 .classification {
   height: 126px;
 }
@@ -1149,18 +990,113 @@ ul {
   clear: both;
 }
 
+.team-forth-left {
+  height: 497px;
+  position: relative;
+}
+
+.team-eighth {
+  height: 995px;
+}
+
 .team-forth {
   height: 810px;
 }
 
+.line-first {
+  border-left: 2px solid rgba(10, 10, 10, 0.1);
+  height: 200px;
+  margin-left: 117px;
+}
+
+.line-first-right {
+  border-bottom: 2px solid rgba(10, 10, 10, 0.1);
+  width: 85px;
+  float: left;
+  margin-top: -100px;
+  margin-left: 117px;
+}
+
+.line-first-next {
+  border-left: 2px solid rgba(10, 10, 10, 0.1);
+  position: absolute;
+  height: 380px;
+  margin-left: 307px;
+  margin-top: -168px;
+}
+
+.line-first-right-next {
+  border-bottom: 2px solid rgba(10, 10, 10, 0.1);
+  width: 85px;
+  float: left;
+  margin-top: -70px;
+  margin-left: 307px;
+  position: absolute;
+}
+
+.half-finals-place {
+  float: left;
+  height: 126px;
+  margin-left: 202px;
+  margin-top: -190px;
+}
+
+.half-finals-second-place {
+  float: left;
+  height: 126px;
+  margin-left: 202px;
+  margin-top: -150px;
+}
+
+.quarter-finals {
+  height: 126px;
+}
+
+.quarter-finals-second {
+  height: 126px;
+}
+
+.quarter-finals-third {
+  height: 126px;
+}
+
+.quarter-finals-forth {
+  height: 126px;
+  clear: both;
+}
+
+.finals {
+  height: 126px;
+  position: absolute;
+}
+
+.finals-place {
+  float: left;
+  height: 126px;
+  margin-left: 392px;
+  margin-top: -510px;
+}
+
+.third- {
+  height: 126px;
+  position: absolute;
+}
+
+.third-place {
+  float: left;
+  height: 126px;
+  margin-left: 392px;
+  margin-top: -310px;
+}
+
 .line-second {
-  border-left: 2px solid rgba(10,10,10,.1);
+  border-left: 2px solid rgba(10, 10, 10, 0.1);
   height: 512px;
   margin-left: 117px;
 }
 
 .line-second-right {
-  border-bottom: 2px solid rgba(10,10,10,.1);
+  border-bottom: 2px solid rgba(10, 10, 10, 0.1);
   width: 85px;
   float: left;
   margin-top: -350px;
@@ -1280,15 +1216,15 @@ ul {
   color: #fff;
   font-size: 18px;
   font-family: "Bebas";
-  border-left: 1px solid #a01d26; 
+  border-left: 1px solid #a01d26;
 }
 
 .team-name-left {
   height: 22.422px;
   width: 438px;
   padding: 9px 10px;
-  border-left: 1px solid rgba(10,10,10,.2); 
-  border-right: 1px solid rgba(10,10,10,.2); 
+  border-left: 1px solid rgba(10, 10, 10, 0.2);
+  border-right: 1px solid rgba(10, 10, 10, 0.2);
 }
 
 .number-left {
@@ -1302,7 +1238,7 @@ ul {
   font-family: "Open Sans-R";
 }
 
-.small-flag-left img{
+.small-flag-left img {
   height: 22.5px;
   width: 30px;
   margin: 0 8px 0 6px;
@@ -1315,7 +1251,7 @@ ul {
 }
 
 .team-left-bottom {
-  border-bottom: 1px solid rgba(10,10,10,.2);
+  border-bottom: 1px solid rgba(10, 10, 10, 0.2);
 }
 
 .teams-second {
@@ -1328,21 +1264,28 @@ ul {
   height: 500px;
 }
 
-.standings-second-round, .standings-classification-round{
+.standings-second-round,
+.standings-classification-round {
   height: 250px;
 }
 
 .leaders {
-  margin-top: 2.49px;
+  margin-top: 0px;
 }
 
 .leaders h2 {
   width: 139px;
 }
 
+.leaders-img {
+  margin-top: -50px;
+  
+}
+
 .leaders-img img {
   margin: 0;
   height: 76px;
+  margin-left: -0.4px;
 }
 
 .area .show {
@@ -1396,8 +1339,8 @@ ul {
   width: 220px;
   margin-bottom: 32px;
   background-color: #fff;
-  border-bottom-left-radius: 50% 100% ;
-  position:relative;
+  border-bottom-left-radius: 50% 100%;
+  position: relative;
   z-index: 3;
   display: flex;
   justify-content: flex-start;
@@ -1434,7 +1377,6 @@ ul {
 .top-three-player ul .name-and-country .player-from {
   margin-top: 5px;
   width: 40px;
-  
 }
 
 .top-three-player ul .name-and-country .player-name {
@@ -1478,7 +1420,6 @@ ul {
 
 .follow-us-img img {
   margin: 0 0 0 0.9px;
-  
 }
 
 .red-background {
@@ -1508,7 +1449,7 @@ ul {
   position: absolute;
 }
 
-.follow-us-icon{
+.follow-us-icon {
   height: 32px;
   width: 78px;
   padding: 15px 0;
@@ -1518,7 +1459,7 @@ ul {
 
 .before-icon {
   background-size: contain;
-  transform: scale(-1,1);
+  transform: scale(-1, 1);
   height: 64px;
   width: 43px;
   position: absolute;
@@ -1566,7 +1507,7 @@ ul {
   background-image: url(../img/pike_twitter.svg);
 }
 
-.twitter{
+.twitter {
   background-color: #1ab2e8;
 }
 
@@ -1579,7 +1520,7 @@ ul {
   background-image: url(../img/pike_facebook.svg);
 }
 
-.facebook{
+.facebook {
   background-color: #3b5998;
 }
 
@@ -1592,8 +1533,8 @@ ul {
   background-image: url(../img/pike_youtube.svg);
 }
 
-.youtube{
-  background-color: #E52E27;
+.youtube {
+  background-color: #e52e27;
 }
 
 .follow-us-youtube {
@@ -1605,8 +1546,8 @@ ul {
   background-image: url(../img/pike_instagram.svg);
 }
 
-.instagram{
-  background-color: #E4405F;
+.instagram {
+  background-color: #e4405f;
 }
 
 .follow-us-instagram {
@@ -1656,7 +1597,6 @@ ul {
   margin: 0;
   margin-left: 15px;
   height: 96px;
-  
 }
 
 .infor-container .content ul li {
@@ -1665,7 +1605,7 @@ ul {
 }
 
 .footer-page {
-  height: 907.750px;
+  height: 907.75px;
   background-color: #222222;
   color: #fff;
   clear: both;
@@ -1681,10 +1621,9 @@ ul {
 .footer-paging .group-up {
   padding: 15px 15px 15px 0;
   width: 225px;
-  
 }
 
-.footer-paging .group-up ul h2{
+.footer-paging .group-up ul h2 {
   margin: 0;
   font-size: 16px;
   height: 31px;
@@ -1719,7 +1658,6 @@ ul {
 }
 
 .footer-logos {
-  
   height: 218.156px;
   padding: 0 10px;
   margin: 20px 0;
@@ -1758,13 +1696,12 @@ ul {
 }
 
 @media (max-width: 980px) {
-
   .site-header .header-bar {
     zoom: 3;
     width: 100%;
   }
-  
-  .site-header .header-name{
+
+  .site-header .header-name {
     line-height: 1.5;
   }
 
@@ -1776,7 +1713,7 @@ ul {
     zoom: 2;
   }
 
-  .red-background .logo img{
+  .red-background .logo img {
     zoom: 1.5;
   }
 
@@ -1790,7 +1727,6 @@ ul {
 
   .red-background .center {
     zoom: 2.5;
-    
   }
 
   .red-background .show .big-show {
@@ -1808,7 +1744,6 @@ ul {
 
   .red-background .show .small-show {
     zoom: 0.977;
-    
   }
 
   .red-background .show .small-show .small-show-1 img {
@@ -1817,16 +1752,16 @@ ul {
 
   .red-background .loader {
     zoom: 1.5;
-    margin-top: 80px; 
+    margin-top: 80px;
   }
 
   .red-background .section-header {
-    margin-top:220px; 
+    margin-top: 220px;
     zoom: 2;
   }
 
   .red-background .section-header-img {
-    margin-top:220px; 
+    margin-top: 220px;
     padding-left: 20px;
     zoom: 2;
   }
@@ -1837,7 +1772,6 @@ ul {
 
   .red-background .loaded {
     height: 500px;
-    
   }
 
   .photos {
@@ -1938,11 +1872,17 @@ ul {
     margin-left: 250px;
   }
 
-  .event-standings .standings-brackets-eightteam .match-line-second .match-line-right-second {
+  .event-standings
+    .standings-brackets-eightteam
+    .match-line-second
+    .match-line-right-second {
     width: 0px;
   }
 
-  .event-standings .standings-brackets-eightteam .match-line-second .second-next-group {
+  .event-standings
+    .standings-brackets-eightteam
+    .match-line-second
+    .second-next-group {
     margin-left: 10px;
   }
 
@@ -1951,12 +1891,12 @@ ul {
   }
 
   .event-standings .infor {
-    width: 182px
+    width: 182px;
   }
 
   #wrapper {
-    width:100%;
-    overflow:hidden;
+    width: 100%;
+    overflow: hidden;
   }
 
   .section-header h2 {
@@ -1967,4 +1907,209 @@ ul {
     font-weight: lighter;
   }
 
+  .tab {
+    border-bottom: none;
+  }
+
+  .tab li {
+    margin: 2px 0;
+  }
+
+  .standings-brackets h2 {
+    font-weight: lighter;
+  }
+
+  .team-eighth {
+    height: 700px;
+    margin-top: 80px;
+    margin-left: -20px;
+  }
+
+  .team-forth {
+    height: 400px;
+    margin-top: 80px;
+    margin-left: -20px;
+  }
+  .line-first {
+    border-left: none;
+    height: 5px;
+  }
+
+  .line-first-right {
+    border-bottom: none;
+    width: 0px;
+  }
+
+  .line-first-next {
+    border-left: none;
+    height: 5px;
+  }
+
+  .line-first-right-next {
+    border-bottom: none;
+    width: 0px;
+  }
+
+  .line-second {
+    border-left: none;
+    height: 5px;
+  }
+
+  .line-second-right {
+    border-bottom: none;
+    width: 0px;
+  }
+
+  .team-forth-left {
+    height: 270px;
+    width: 190px;
+    float: left;
+  }
+
+  .half-finals-place {
+    margin-bottom: -350px;
+    margin-top: 150px;
+    margin-left: 0px;
+    float: left;
+  }
+
+  .half-finals-second-place {
+    margin-bottom: -350px;
+    margin-top: 177px;
+    float: left;
+    margin-left: 0px;
+  }
+
+  .right-match {
+    margin-top: 46px;
+    margin-bottom: 0;
+  }
+
+  .finals-place {
+    margin-left: -190px;
+    margin-top: 350px;
+    margin-bottom: -1400px;
+  }
+
+  .third-place {
+    margin-left: 0px;
+    margin-top: 350px;
+    margin-bottom: -1400px;
+  }
+
+  .classification-second {
+    float: left;
+    margin-left: 190px;
+    margin-top: -132px;
+  }
+
+  .fifth-place {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -1400px;
+  }
+
+  .seventh-place {
+    margin-left: 190px;
+    margin-top: 0px;
+    margin-bottom: -1400px;
+  }
+
+  .final-standings {
+    margin-top: 50px;
+  }
+
+  .the-first-three {
+    background-image: none;
+  }
+
+  .first {
+    left: 80px;
+    font-weight: lighter;
+    background-color: gold;
+  }
+
+  .second {
+    left: 80px;
+    top: 140px;
+    font-weight: lighter;
+    background-color: silver;
+  }
+
+  .third {
+    left: 80px;
+    top: 250px;
+    font-weight: lighter;
+    background-color: #cd7f32;
+  }
+
+  .teams {
+    margin: 0;
+  }
+
+  .teams-first {
+    width: 170px;
+  }
+
+  .teams-second {
+    float: left;
+    width: 148px;
+  }
+
+  .teams-left {
+    width: 148px;
+  }
+
+  .team-name-left {
+    width: 148px;
+  }
+
+  .leaders {
+    zoom: 2.5;
+  }
+
+  .leaders h2 {
+    font-weight: lighter;
+  }
+
+  .leaders-img {
+    zoom: 2.5;
+  }
+
+  .player-stats-list {
+    zoom: 2.5;
+    flex-direction: column;
+    height: 1400px;
+  }
+
+  .follow-us {
+    zoom: 2.5;
+  }
+
+  .follow-us h2 {
+    font-weight: lighter;
+  }
+
+  .follow-us-img {
+    zoom: 2.5;
+  }
+
+  .follow-us-img img {
+    margin-left: -1px;
+  }
+
+  .follow-us-page {
+    zoom: 2.5;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 400px;
+    height: 700px;
+  }
+
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
 }
