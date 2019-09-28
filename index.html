@@ -782,7 +782,7 @@
 
                 <!-- コンテンツ全体を非表示にし、showクラスが付いたコンテンツのみ表示 -->
                 <div class="area">
-                    <ul>
+                    <ul class="show">
                         <div class="standings-first-round">
                             <div class="table-container table-container-top">
                                 <div class="top-menu">
@@ -3521,12 +3521,7 @@
                 // ⑤コンテンツを一旦非表示にし、クリックされた順番のコンテンツのみを表示
                 $('.area ul').removeClass('show').eq(index).addClass('show');
 
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-
-                    }
-                }]
+                
             });
         });
     </script>
