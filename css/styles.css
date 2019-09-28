@@ -2207,6 +2207,14 @@ ul {
     font-weight: lighter;
   }
 
+  .about-img img {
+    margin-left: -0.8px;
+  }
+
+  h2,h4 {
+    font-weight: lighter;
+  }
+
 }
 
 #wrapper {
